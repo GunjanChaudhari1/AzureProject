@@ -1,0 +1,15 @@
+{
+	"name": "AzureProject-1-Gunjan",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3f22272b-2b7a-4e86-8eab-fa49017e9be7",
+		"tenantId": "e3a9e7ba-e12d-499e-b039-996080e18f7a"
+	}
+}
