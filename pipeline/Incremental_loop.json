@@ -342,15 +342,9 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "POST",
-					"headers": {
-						"Content-Type": {
-							"value": "application/json",
-							"type": "Expression"
-						}
-					},
 					"url": "https://prod-21.centralindia.logic.azure.com:443/workflows/cd7fe9beb065491da98bd1dab8f3da51/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=JcLsiE5eX989eUoRFf8lEuDkzE6joBUXVNCKstJ1Hnw",
 					"body": {
-						"value": "{\"pipeline_name\": \"@{pipeline().Pipeline}\",\"pipeline_runid\": \"@{pipeline().RunId}\"}",
+						"value": "{\"pipeline_name\": \"@{pipeline().Pipeline}\"}",
 						"type": "Expression"
 					}
 				}
